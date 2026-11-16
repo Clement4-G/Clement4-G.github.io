@@ -1,0 +1,12 @@
+# Propose chaque semaine la mise à jour des actions épinglées (leurs empreintes changent avec les versions).
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+  # et les dépendances du site (three, gsap, vite), pour les correctifs de sécurité
+  - package-ecosystem: bun
+    directory: /
+    schedule:
+      interval: weekly

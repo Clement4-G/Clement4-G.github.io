@@ -1,0 +1,867 @@
+{
+  "identity": {
+    "name": "Clément GAST",
+    "tagline": {
+      "fr": "Étudiant en Master International Business. Je construis des sites web et des outils IA (agents, automatisation, IA hors ligne), avec un regard formé au commerce.",
+      "en": "Master’s student in International Business. I build websites and AI tools (agents, automation, offline AI), with a business-trained eye."
+    },
+    "short": {
+      "fr": "Business × IA · Sites, agents et automatisation",
+      "en": "Business × AI · Websites, agents and automation"
+    }
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/cl%C3%A9ment-gast-b7b07129a",
+    "github": "https://github.com/Clement4-G",
+    "email": {
+      "user": "clementgast4",
+      "domain": "gmail.com"
+    }
+  },
+  "rooms": [
+    {
+      "id": "ia",
+      "number": "01",
+      "title": {
+        "fr": "Projets IA",
+        "en": "AI projects"
+      },
+      "paintings": [
+        "ia-locale",
+        "coffre-agents"
+      ]
+    },
+    {
+      "id": "trading",
+      "number": "02",
+      "title": {
+        "fr": "Trading et finance",
+        "en": "Trading and finance"
+      },
+      "paintings": [
+        "bot-trading",
+        "echiquier"
+      ]
+    },
+    {
+      "id": "stack",
+      "number": "03",
+      "title": {
+        "fr": "Stack et méthode",
+        "en": "Stack and method"
+      },
+      "paintings": [
+        "stack",
+        "tethys"
+      ]
+    },
+    {
+      "id": "apropos",
+      "number": "04",
+      "title": {
+        "fr": "À propos et contact",
+        "en": "About and contact"
+      },
+      "paintings": [
+        "a-propos",
+        "contact"
+      ]
+    }
+  ],
+  "paintings": {
+    "ia-locale": {
+      "title": {
+        "fr": "Une IA locale, hors ligne",
+        "en": "A local, offline AI"
+      },
+      "art": "stairs",
+      "body": [
+        {
+          "fr": "Un assistant IA qui tourne entièrement sur mon ordinateur portable, sans connexion internet.",
+          "en": "An AI assistant that runs entirely on my laptop, with no internet connection."
+        },
+        {
+          "fr": "Je l’ai installé avec Ollama, puis choisi et réglé pour une machine modeste : 8 Go de mémoire, pas de carte graphique dédiée.",
+          "en": "I set it up with Ollama, then picked and tuned it for a modest machine: 8 GB of memory, no dedicated graphics card."
+        },
+        {
+          "fr": "Ce que j’en retiens : sur une petite machine, la mémoire disponible compte plus que la puissance du processeur.",
+          "en": "My takeaway: on a small machine, available memory matters more than processor power."
+        }
+      ],
+      "tools": [
+        "Ollama"
+      ],
+      "link": null,
+      "work": {
+        "image": "astronomer",
+        "w": 1024,
+        "h": 1163,
+        "title": {
+          "fr": "L’Astronome",
+          "en": "The Astronomer"
+        },
+        "artist": "Johannes Vermeer",
+        "year": "1668"
+      },
+      "figure": {
+        "value": {
+          "fr": "8 Go",
+          "en": "8 GB"
+        },
+        "label": {
+          "fr": "de mémoire suffisent, sans carte graphique ni Internet",
+          "en": "of memory is enough, with no graphics card and no Internet"
+        }
+      }
+    },
+    "coffre-agents": {
+      "title": {
+        "fr": "Un coffre de connaissances piloté par des agents",
+        "en": "A knowledge vault run by agents"
+      },
+      "art": "network",
+      "body": [
+        {
+          "fr": "Mes notes, mes projets et mes apprentissages vivent dans un coffre structuré.",
+          "en": "My notes, projects and learnings live in a structured vault."
+        },
+        {
+          "fr": "Des agents IA le rangent, tiennent les fiches projets à jour et gardent la trace de chaque décision.",
+          "en": "AI agents keep it tidy, update the project sheets and record every decision."
+        },
+        {
+          "fr": "Chaque projet y suit le même chemin : cadrage, plan, construction, vérification.",
+          "en": "Every project follows the same path: framing, plan, build, verification."
+        }
+      ],
+      "tools": [
+        "Claude Code"
+      ],
+      "link": null,
+      "work": {
+        "image": "starry-night",
+        "w": 1024,
+        "h": 811,
+        "title": {
+          "fr": "La Nuit étoilée",
+          "en": "The Starry Night"
+        },
+        "artist": "Vincent van Gogh",
+        "year": "1889"
+      },
+      "figure": {
+        "value": {
+          "fr": "850+",
+          "en": "850+"
+        },
+        "label": {
+          "fr": "notes dans le coffre, tenues à jour par des agents",
+          "en": "notes in the vault, kept up to date by agents"
+        }
+      }
+    },
+    "bot-trading": {
+      "title": {
+        "fr": "Un bot de trading en démonstration",
+        "en": "A trading bot in demo mode"
+      },
+      "art": "opwaves",
+      "body": [
+        {
+          "fr": "Un bot de trading automatique, construit comme projet d’apprentissage et testé sur un compte de démonstration.",
+          "en": "An automated trading bot, built as a learning project and tested on a demo account."
+        },
+        {
+          "fr": "Autour de lui, une « usine de recherche » : chaque idée est testée sur l’historique, puis sur des données jamais vues, avant d’être retenue ou écartée.",
+          "en": "Around it, a “research factory”: every idea is tested on historical data, then on unseen data, before being kept or dropped."
+        },
+        {
+          "fr": "La règle : des critères fixés à l’avance, et des résultats annoncés tels quels, y compris quand ils sont mauvais.",
+          "en": "The rule: criteria set in advance, and results reported as they are, bad ones included."
+        }
+      ],
+      "tools": [
+        "Python",
+        "MetaTrader 5"
+      ],
+      "link": null,
+      "work": {
+        "image": "great-wave",
+        "w": 1024,
+        "h": 688,
+        "title": {
+          "fr": "La Grande Vague de Kanagawa",
+          "en": "The Great Wave off Kanagawa"
+        },
+        "artist": "Katsushika Hokusai",
+        "year": {
+          "fr": "vers 1831",
+          "en": "c. 1831"
+        }
+      }
+    },
+    "echiquier": {
+      "title": {
+        "fr": "Mat en deux coups",
+        "en": "Mate in two"
+      },
+      "art": "checker",
+      "body": [
+        {
+          "fr": "Un problème d’échecs à résoudre : les blancs jouent et font mat en deux coups.",
+          "en": "A chess problem to solve: White to play and mate in two."
+        },
+        {
+          "fr": "Les échecs m’apprennent la même chose que les projets : prévoir, vérifier, puis jouer.",
+          "en": "Chess teaches me the same thing projects do: plan ahead, check, then play."
+        }
+      ],
+      "tools": [],
+      "link": null,
+      "work": {
+        "image": "chess-game",
+        "w": 1024,
+        "h": 809,
+        "title": {
+          "fr": "La Partie d’échecs",
+          "en": "The Chess Game"
+        },
+        "artist": "Sofonisba Anguissola",
+        "year": "1555"
+      }
+    },
+    "stack": {
+      "title": {
+        "fr": "Ce que je sais faire, et où le voir",
+        "en": "What I can do, and where to see it"
+      },
+      "art": "gears",
+      "body": [
+        {
+          "fr": "Je construis avec des assistants IA, et je le dis. Mon travail : cadrer le besoin, trancher entre les options, vérifier le résultat.",
+          "en": "I build with AI assistants, and I say so. My job: frame the need, decide between options, check the result."
+        },
+        {
+          "fr": "Ce site a suivi ce chemin : un cahier des charges écrit, un plan par étapes, des tests automatiques, puis une relecture par un second agent avant publication.",
+          "en": "This site followed that path: a written brief, a step-by-step plan, automated tests, then a review by a second agent before publishing."
+        },
+        {
+          "fr": "Pour chaque compétence : ce que j’ai fait, et le projet à regarder.",
+          "en": "For each skill: what I did, and the project to look at."
+        }
+      ],
+      "tools": [],
+      "link": null,
+      "work": {
+        "image": "babel",
+        "w": 1024,
+        "h": 749,
+        "title": {
+          "fr": "La Tour de Babel",
+          "en": "The Tower of Babel"
+        },
+        "artist": {
+          "fr": "Pieter Bruegel l’Ancien",
+          "en": "Pieter Bruegel the Elder"
+        },
+        "year": "1563"
+      },
+      "figure": {
+        "value": {
+          "fr": "100",
+          "en": "100"
+        },
+        "label": {
+          "fr": "tests automatiques vérifient ce site",
+          "en": "automated tests check this site"
+        }
+      }
+    },
+    "tethys": {
+      "title": {
+        "fr": "Le site de Tethys",
+        "en": "The Tethys website"
+      },
+      "art": "blueprint",
+      "body": [
+        {
+          "fr": "Le contexte : pendant mon stage, de mars à mai 2026, le dirigeant de Tethys m’a demandé de créer le nouveau site vitrine de l’entreprise.",
+          "en": "The context: during my internship, from March to May 2026, the head of Tethys asked me to build the company’s new showcase website."
+        },
+        {
+          "fr": "Mon rôle : le concevoir et le mettre en ligne, du premier plan à la publication.",
+          "en": "My role: design it and launch it, from the first outline to going live."
+        },
+        {
+          "fr": "La méthode : un site vitrine de plusieurs pages, animé, construit avec des agents IA dont je cadre et vérifie le travail.",
+          "en": "The method: a multi-page, animated showcase site, built with AI agents whose work I direct and check."
+        },
+        {
+          "fr": "Le résultat : le site demandé est livré et en ligne ; le lien est juste en dessous.",
+          "en": "The result: the requested site is delivered and live; the link is just below."
+        }
+      ],
+      "tools": [
+        "Claude Code",
+        "JavaScript"
+      ],
+      "link": "https://new.tethys.cool",
+      "work": {
+        "image": "venus",
+        "w": 1024,
+        "h": 643,
+        "title": {
+          "fr": "La Naissance de Vénus",
+          "en": "The Birth of Venus"
+        },
+        "artist": "Sandro Botticelli",
+        "year": {
+          "fr": "vers 1485",
+          "en": "c. 1485"
+        }
+      },
+      "figure": {
+        "value": {
+          "fr": "3 mois",
+          "en": "3 months"
+        },
+        "label": {
+          "fr": "de la conception à la mise en ligne",
+          "en": "from design to launch"
+        }
+      }
+    },
+    "a-propos": {
+      "title": {
+        "fr": "À propos",
+        "en": "About"
+      },
+      "art": "landscape",
+      "body": [
+        {
+          "fr": "Ma formation est commerciale : BTS, BUT Techniques de commercialisation, puis Master International Business à l’IAE Nice.",
+          "en": "My background is in business: a BTS, a BUT in Business Studies, then a Master’s in International Business at IAE Nice."
+        },
+        {
+          "fr": "Le commerce m’a appris à partir du besoin du client ; je construis les outils qui y répondent, sites et agents IA. Côté international, je travaille en français et en anglais (TOEIC 865), comme ce site.",
+          "en": "Business taught me to start from the customer’s need; I build the tools that meet it, websites and AI agents. On the international side, I work in French and in English (TOEIC 865), like this site."
+        },
+        {
+          "fr": "Mes expériences professionnelles sont sur LinkedIn.",
+          "en": "My work experience is on LinkedIn."
+        }
+      ],
+      "tools": [],
+      "link": null,
+      "work": {
+        "image": "wanderer",
+        "w": 1024,
+        "h": 1311,
+        "title": {
+          "fr": "Le Voyageur contemplant une mer de nuages",
+          "en": "Wanderer above the Sea of Fog"
+        },
+        "artist": "Caspar David Friedrich",
+        "year": {
+          "fr": "vers 1818",
+          "en": "c. 1818"
+        }
+      }
+    },
+    "contact": {
+      "title": {
+        "fr": "Me contacter",
+        "en": "Get in touch"
+      },
+      "art": "seigaiha",
+      "body": [
+        {
+          "fr": "Je cherche un stage : dites-moi en deux lignes ce que vous proposez, par LinkedIn, GitHub ou e-mail.",
+          "en": "I’m looking for an internship: tell me in two lines what you have in mind, through LinkedIn, GitHub or email."
+        }
+      ],
+      "tools": [],
+      "link": null,
+      "work": {
+        "image": "adam",
+        "w": 1024,
+        "h": 465,
+        "title": {
+          "fr": "La Création d’Adam",
+          "en": "The Creation of Adam"
+        },
+        "artist": {
+          "fr": "Michel-Ange",
+          "en": "Michelangelo"
+        },
+        "year": {
+          "fr": "vers 1511",
+          "en": "c. 1511"
+        }
+      }
+    },
+    "secret": {
+      "title": {
+        "fr": "La salle du roi",
+        "en": "The king’s room"
+      },
+      "art": "checker",
+      "body": [
+        {
+          "fr": "Vous avez trouvé les six pièces et ouvert la salle secrète.",
+          "en": "You found all six pieces and opened the secret room."
+        },
+        {
+          "fr": "Chercher ce qui n’est pas affiché, aller au bout : c’est aussi ma façon de travailler.",
+          "en": "Looking for what is not on display, and seeing things through: that is also how I work."
+        },
+        {
+          "fr": "Si ce musée vous a plu, écrivez-moi.",
+          "en": "If you enjoyed this museum, get in touch."
+        }
+      ],
+      "tools": [],
+      "link": null
+    }
+  },
+  "education": [
+    {
+      "title": {
+        "fr": "Master International Business",
+        "en": "Master’s in International Business"
+      },
+      "school": "IAE Nice",
+      "years": "2026 – 2028"
+    },
+    {
+      "title": {
+        "fr": "BUT Techniques de commercialisation, parcours marketing digital",
+        "en": "BUT in Business Studies, digital marketing track"
+      },
+      "school": "IUT Nice Côte d’Azur",
+      "years": "2025 – 2026"
+    },
+    {
+      "title": {
+        "fr": "BTS Management Commercial Opérationnel",
+        "en": "BTS in Operational Sales Management"
+      },
+      "school": "",
+      "years": ""
+    },
+    {
+      "title": {
+        "fr": "TOEIC 865 / 990",
+        "en": "TOEIC 865 / 990"
+      },
+      "school": "",
+      "years": ""
+    }
+  ],
+  "passions": [
+    {
+      "fr": "Automobile",
+      "en": "Cars"
+    },
+    {
+      "fr": "Horlogerie",
+      "en": "Watchmaking"
+    },
+    {
+      "fr": "Échecs",
+      "en": "Chess"
+    }
+  ],
+  "skills": [
+    {
+      "label": {
+        "fr": "Création de sites web",
+        "en": "Website creation"
+      },
+      "did": {
+        "fr": "Site de Tethys conçu et mis en ligne",
+        "en": "Tethys website designed and launched"
+      },
+      "proofPainting": "tethys"
+    },
+    {
+      "label": {
+        "fr": "Automatisation avec des agents IA",
+        "en": "Automation with AI agents"
+      },
+      "did": {
+        "fr": "Coffre de connaissances tenu à jour par des agents",
+        "en": "Knowledge vault kept up to date by agents"
+      },
+      "proofPainting": "coffre-agents"
+    },
+    {
+      "label": {
+        "fr": "IA locale",
+        "en": "Local AI"
+      },
+      "did": {
+        "fr": "Assistant hors ligne installé et réglé pour une machine modeste",
+        "en": "Offline assistant set up and tuned for a modest machine"
+      },
+      "proofPainting": "ia-locale"
+    },
+    {
+      "label": {
+        "fr": "Python et analyse de données",
+        "en": "Python and data analysis"
+      },
+      "did": {
+        "fr": "Bot de trading et banc d’essai de stratégies",
+        "en": "Trading bot and strategy test bench"
+      },
+      "proofPainting": "bot-trading"
+    },
+    {
+      "label": {
+        "fr": "Gestion de projet",
+        "en": "Project management"
+      },
+      "did": {
+        "fr": "Site de Tethys mené de la conception à la mise en ligne, en trois mois de stage",
+        "en": "Tethys website taken from design to launch in a three-month internship"
+      },
+      "proofPainting": "tethys"
+    }
+  ],
+  "counters": [],
+  "agentsLog": [
+    {
+      "agent": "agent-plan",
+      "text": {
+        "fr": "lecture du brief : un musée, quatre salles",
+        "en": "reading the brief: one museum, four rooms"
+      }
+    },
+    {
+      "agent": "agent-design",
+      "text": {
+        "fr": "palette claire, panneaux sombres : validé",
+        "en": "light palette, dark panels: approved"
+      }
+    },
+    {
+      "agent": "agent-code",
+      "text": {
+        "fr": "salle 01 posée : Projets IA",
+        "en": "room 01 placed: AI projects"
+      }
+    },
+    {
+      "agent": "agent-code",
+      "text": {
+        "fr": "salle 02 posée : Trading et finance",
+        "en": "room 02 placed: Trading and finance"
+      }
+    },
+    {
+      "agent": "agent-code",
+      "text": {
+        "fr": "salles 03 et 04 posées",
+        "en": "rooms 03 and 04 placed"
+      }
+    },
+    {
+      "agent": "agent-data",
+      "text": {
+        "fr": "huit tableaux accrochés",
+        "en": "eight paintings hung"
+      }
+    },
+    {
+      "agent": "agent-design",
+      "text": {
+        "fr": "flèches tracées entre les salles",
+        "en": "arrows drawn between rooms"
+      }
+    },
+    {
+      "agent": "agent-qa",
+      "text": {
+        "fr": "contrôle de vie privée : rien à signaler",
+        "en": "privacy check: nothing to report"
+      }
+    },
+    {
+      "agent": "agent-qa",
+      "text": {
+        "fr": "tests passés, le musée est ouvert",
+        "en": "tests passed, the museum is open"
+      }
+    }
+  ],
+  "ui": {
+    "fastVersion": {
+      "fr": "Version rapide",
+      "en": "Quick version"
+    },
+    "museumVersion": {
+      "fr": "Visiter le musée",
+      "en": "Visit the museum"
+    },
+    "backToMap": {
+      "fr": "Carte",
+      "en": "Map"
+    },
+    "skip": {
+      "fr": "Passer",
+      "en": "Skip"
+    },
+    "showEmail": {
+      "fr": "Afficher mon e-mail",
+      "en": "Show my email"
+    },
+    "stagedNotice": {
+      "fr": "Séquence reconstituée : ce site a réellement été construit avec des agents IA.",
+      "en": "Staged sequence: this site really was built with AI agents."
+    },
+    "langToggle": {
+      "fr": "English",
+      "en": "Français"
+    },
+    "tools": {
+      "fr": "Outils",
+      "en": "Tools"
+    },
+    "seeSite": {
+      "fr": "Voir le site",
+      "en": "Visit the site"
+    },
+    "education": {
+      "fr": "Formations",
+      "en": "Education"
+    },
+    "passions": {
+      "fr": "Passions",
+      "en": "Passions"
+    },
+    "skillsTitle": {
+      "fr": "Compétences et preuves",
+      "en": "Skills and proof"
+    },
+    "seeProof": {
+      "fr": "Voir la preuve",
+      "en": "See the proof"
+    },
+    "experience": {
+      "fr": "Mon parcours sur LinkedIn",
+      "en": "My experience on LinkedIn"
+    },
+    "close": {
+      "fr": "Fermer",
+      "en": "Close"
+    },
+    "cliNotice": {
+      "fr": "Ce portfolio se lit aussi en ligne de commande : curl https://clement4-g.github.io/cv.fr.txt",
+      "en": "This portfolio also reads from the command line: curl https://clement4-g.github.io/cv.en.txt"
+    },
+    "enterRoom": {
+      "fr": "Entrer dans la salle",
+      "en": "Enter the room"
+    },
+    "startVisit": {
+      "fr": "Commencer la visite",
+      "en": "Start the tour"
+    },
+    "mapHint": {
+      "fr": "Cliquez sur une salle pour y entrer · glisser pour déplacer · molette pour zoomer",
+      "en": "Click a room to enter · drag to move · scroll to zoom"
+    },
+    "logTitle": {
+      "fr": "Agents · construction en direct",
+      "en": "Agents · live build"
+    },
+    "galleryHint": {
+      "fr": "ZQSD ou flèches : marcher · souris : regarder · E : agir",
+      "en": "WASD or arrows: walk · mouse: look · E: act"
+    },
+    "chessPrompt": {
+      "fr": "Les blancs jouent. Choisissez une pièce, puis une case.",
+      "en": "White to move. Pick a piece, then a square."
+    },
+    "chessWrong": {
+      "fr": "Ce n’est pas le bon coup. Essayez encore.",
+      "en": "Not the right move. Try again."
+    },
+    "chessSolved": {
+      "fr": "Échec et mat. Bien joué.",
+      "en": "Checkmate. Well played."
+    },
+    "chessReset": {
+      "fr": "Recommencer",
+      "en": "Start over"
+    },
+    "chessSolution": {
+      "fr": "Solution : la tour va en a6. Si le pion prend, le pion b6 avance en b7 et fait mat.",
+      "en": "Solution: the rook goes to a6. If the pawn takes, the b6 pawn advances to b7, checkmate."
+    },
+    "chessCredit": {
+      "fr": "Problème de Paul Morphy, XIXe siècle.",
+      "en": "Problem by Paul Morphy, 19th century."
+    },
+    "after": {
+      "fr": "D’après",
+      "en": "After"
+    },
+    "questLabel": {
+      "fr": "Pièces trouvées",
+      "en": "Pieces found"
+    },
+    "questIntro": {
+      "fr": "Bonus : six pièces d’échecs sont cachées dans le musée. Trouvez-les toutes.",
+      "en": "Bonus: six chess pieces are hidden in the museum. Find them all."
+    },
+    "questFound": {
+      "fr": "Pièce trouvée",
+      "en": "Piece found"
+    },
+    "questDone": {
+      "fr": "La salle secrète vient de s’ouvrir, tout au fond du musée.",
+      "en": "The secret room just opened, at the far end of the museum."
+    },
+    "motionOn": {
+      "fr": "Activer les animations",
+      "en": "Turn animations on"
+    },
+    "motionOff": {
+      "fr": "Réduire les animations",
+      "en": "Reduce animations"
+    },
+    "more": {
+      "fr": "Lire la suite",
+      "en": "Read more"
+    },
+    "curiosities": {
+      "fr": "Curiosités essayées",
+      "en": "Curiosities tried"
+    },
+    "late": {
+      "fr": "« En retard, en retard ! »",
+      "en": "“I’m late, I’m late!”"
+    },
+    "inside": {
+      "fr": "Vous êtes entré dans",
+      "en": "You stepped into"
+    },
+    "exitE": {
+      "fr": "E pour sortir",
+      "en": "E to leave"
+    },
+    "driveHint": {
+      "fr": "Z : accélérer · S : freiner · Q/D : tourner · E : descendre",
+      "en": "W: accelerate · S: brake · A/D: steer · E: get out"
+    },
+    "settings": {
+      "fr": "Réglages",
+      "en": "Settings"
+    },
+    "sensitivity": {
+      "fr": "Sensibilité de la souris",
+      "en": "Mouse sensitivity"
+    },
+    "invertY": {
+      "fr": "Inverser haut et bas",
+      "en": "Invert up and down"
+    },
+    "invertX": {
+      "fr": "Inverser gauche et droite",
+      "en": "Invert left and right"
+    },
+    "featured": {
+      "fr": "Réalisation phare",
+      "en": "Featured work"
+    },
+    "offersTitle": {
+      "fr": "Je peux vous aider à",
+      "en": "Ways I can help"
+    },
+    "bonus": {
+      "fr": "Bonus",
+      "en": "Bonus"
+    },
+    "contactCta": {
+      "fr": "Me contacter",
+      "en": "Get in touch"
+    },
+    "loaderEnter": {
+      "fr": "Entrer",
+      "en": "Enter"
+    },
+    "read": {
+      "fr": "Lire",
+      "en": "Read"
+    },
+    "questShort": {
+      "fr": "Pièces",
+      "en": "Pieces"
+    },
+    "curioShort": {
+      "fr": "Curiosités",
+      "en": "Curiosities"
+    }
+  },
+  "secret": {
+    "painting": "secret",
+    "number": "♚",
+    "title": {
+      "fr": "Salle secrète",
+      "en": "Secret room"
+    }
+  },
+  "garden": {
+    "number": "✿",
+    "title": {
+      "fr": "Jardin japonais · bonus",
+      "en": "Japanese garden · bonus"
+    }
+  },
+  "hall": {
+    "number": "00",
+    "title": {
+      "fr": "Salon d’accueil",
+      "en": "Welcome lounge"
+    }
+  },
+  "offers": [
+    {
+      "fr": "Créer un site vitrine animé",
+      "en": "Build an animated showcase website"
+    },
+    {
+      "fr": "Automatiser une tâche répétitive avec un agent IA",
+      "en": "Automate a repetitive task with an AI agent"
+    },
+    {
+      "fr": "Installer un assistant IA qui fonctionne hors ligne",
+      "en": "Set up an AI assistant that works offline"
+    }
+  ],
+  "featured": "tethys",
+  "seeking": {
+    "fr": "Je cherche un stage. Écrivez-moi.",
+    "en": "I’m looking for an internship. Get in touch."
+  },
+  "fastPlacement": {
+    "echiquier": "apropos"
+  },
+  "loader": {
+    "title": {
+      "fr": "Bienvenue au musée",
+      "en": "Welcome to the museum"
+    },
+    "line": {
+      "fr": "Ce portfolio se visite comme un musée : chaque projet est accroché à la place d’un chef-d’œuvre, salle après salle.",
+      "en": "This portfolio is visited like a museum: each project hangs in place of a masterpiece, room after room."
+    },
+    "why": {
+      "fr": "Pourquoi l’art ? Un tableau se regarde avant de se lire.",
+      "en": "Why art? A painting is seen before it is read."
+    }
+  }
+}

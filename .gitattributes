@@ -1,0 +1,2 @@
+# les scripts shell doivent garder des fins de ligne Unix, sinon le garde-fou avant envoi ne s exécute plus
+*.sh text eol=lf

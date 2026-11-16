@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr" data-mode="fast">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' ws: wss:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'none'"
+    />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <!-- l'écran de chargement est stylé avant tout le reste : on ne voit jamais la page sans mise en forme -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/loader.css" />
+    <noscript><link rel="stylesheet" href="/noscript.css" /></noscript>
+    <title>Clément GAST · Business × IA</title>
+    <!--DESCRIPTION-->
+    <!--JSONLD-->
+  </head>
+  <body>
+    <div id="loader" class="loader" role="status" aria-live="polite"><!--LOADER--></div>
+    <div class="topbar">
+      <button type="button" class="btn" id="motion-toggle" hidden></button>
+      <button type="button" class="btn" id="mode-toggle" hidden></button>
+      <button type="button" class="btn" id="lang-toggle" hidden>English</button>
+    </div>
+    <div id="museum" hidden></div>
+    <main id="fast"><!--FAST--></main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

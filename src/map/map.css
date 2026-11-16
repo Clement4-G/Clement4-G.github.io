@@ -1,0 +1,104 @@
+/* Le musée occupe tout l'écran ; la version rapide est alors masquée. */
+html[data-mode='museum'], html[data-mode='museum'] body { height: 100%; overflow: hidden; }
+
+#museum { position: fixed; inset: 0; background: var(--paper); }
+
+.map { position: absolute; inset: 0; }
+
+.map__svg { position: absolute; inset: 0; width: 100%; height: 100%; cursor: grab; touch-action: none; }
+.map__svg:active { cursor: grabbing; }
+
+.map__gridline { fill: none; stroke: #e2dccb; stroke-width: 1; }
+
+.map__walls { fill: var(--paper); stroke: var(--ink); stroke-width: 5; transition: fill 0.2s; }
+
+.map__door { stroke: var(--paper); stroke-width: 7; }
+
+.map__room { cursor: pointer; outline: none; }
+.map__room:hover .map__walls, .map__room:focus-visible .map__walls { fill: #fff8e3; stroke: var(--gold); }
+
+.map__num { font: 400 46px var(--serif); fill: var(--gold); }
+
+.map__title { font: 400 25px var(--serif); fill: var(--ink); }
+
+.map__painting { fill: var(--night); stroke: var(--gold); stroke-width: 2.5; }
+
+.map__link { stroke: var(--cyan); stroke-width: 4; stroke-linecap: round; filter: drop-shadow(0 0 5px rgba(56, 214, 255, 0.7)); }
+
+.map__arrowhead { fill: var(--cyan); }
+
+.map__head { position: absolute; top: 20px; left: 28px; max-width: min(560px, 46vw); pointer-events: none; }
+
+.map__short { font: 600 12px/1.4 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-soft); margin: 0 0 6px; }
+
+.map__name { font: 400 clamp(30px, 3.6vw, 52px) / 1 var(--serif); letter-spacing: -0.02em; margin: 0 0 8px; }
+
+.map__tagline { font-size: 15px; line-height: 1.45; margin: 0; background: rgba(244, 241, 234, 0.82); }
+
+.map__hint { position: absolute; left: 28px; bottom: 18px; margin: 0; font: 12px/1.4 var(--mono); color: var(--ink-soft); pointer-events: none; }
+
+.log {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: min(340px, 25vw);
+  background: var(--night);
+  color: var(--night-text);
+  border: 1px solid var(--night-line);
+  border-radius: 10px;
+  padding: 14px 16px;
+  font: 13px/1.5 var(--mono);
+  box-shadow: 0 18px 40px rgba(11, 17, 24, 0.35);
+}
+
+.log__title { display: flex; align-items: center; gap: 8px; margin: 0 0 8px; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--mint); }
+
+.log__dot { width: 8px; height: 8px; border-radius: 50%; background: var(--mint); animation: log-pulse 1.2s infinite; }
+
+@keyframes log-pulse { 50% { opacity: 0.2; } }
+
+/* les lignes s'empilent par le bas : les plus récentes restent visibles */
+.log__lines { height: 150px; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; }
+
+.log__line { margin: 0 0 3px; }
+
+.log__agent { color: var(--cyan); }
+
+.log__notice { margin: 10px 0 0; padding-top: 8px; border-top: 1px solid var(--night-line); font-size: 11px; opacity: 0.8; }
+
+.log__skip { margin-top: 10px; font: 600 12px/1 var(--mono); padding: 7px 12px; border: 1px solid var(--cyan); border-radius: 999px; background: transparent; color: var(--cyan); cursor: pointer; }
+.log__skip:hover { background: var(--cyan); color: var(--night); }
+
+
+html[data-motion='reduced'] .log__dot { animation: none; }
+
+/* --- retouches après revue design --- */
+.map__frame { fill: var(--night); stroke: var(--gold-text); stroke-width: 2.5; }
+
+.map__num { fill: var(--gold-text); }
+
+.map__room:hover .map__walls, .map__room:focus-visible .map__walls { stroke: var(--gold-text); stroke-width: 7; }
+
+.map__link { stroke: var(--gold-text); filter: none; }
+
+.map__arrowhead { fill: var(--gold-text); }
+
+/* sous le texte d'aide, en bas : il ne touche jamais l'en-tête, quelle que soit la taille de l'écran */
+.map__cta { position: absolute; left: 28px; top: auto; bottom: 52px; background: var(--ink); color: var(--paper); font-size: 16px; padding-inline: 22px; }
+.map__cta:hover { background: var(--gold-text); border-color: var(--gold-text); color: var(--paper); }
+
+.log__skip { min-height: 36px; }
+
+/* --- les curseurs des agents, comme sur un document partagé --- */
+.cursors { position: absolute; inset: 0; pointer-events: none; z-index: 3; overflow: hidden; }
+.cursor { position: absolute; left: 0; top: 0; display: flex; align-items: flex-start; gap: 2px; opacity: 0; will-change: transform; }
+.cursor i { width: 0; height: 0; border-left: 13px solid var(--cursor); border-top: 5px solid transparent; border-bottom: 13px solid transparent; transform: rotate(-38deg); filter: drop-shadow(0 1px 1px rgba(11, 17, 24, 0.45)); }
+.cursor span { margin-top: 12px; font: 600 11px/1 var(--mono); color: #fff; background: var(--cursor); padding: 4px 7px; border-radius: 4px 9px 9px 9px; white-space: nowrap; box-shadow: 0 2px 6px rgba(11, 17, 24, 0.25); }
+
+/* --- le jardin sur la carte --- */
+.map__gardenbox { fill: #e3efd6; stroke: #4f7a45; stroke-width: 4; stroke-dasharray: 10 7; }
+.map__gardenlink { stroke: #4f7a45; stroke-width: 4; stroke-dasharray: 6 6; }
+.map__gardentitle { font: 400 21px var(--serif); fill: #2f5d46; }
+.map__gardentag { font: 500 12px var(--mono); letter-spacing: 0.12em; text-transform: uppercase; fill: #4f7a45; }
+.map__tree { fill: #e9a9c6; }
+.map__pond { fill: #7fb3cf; }

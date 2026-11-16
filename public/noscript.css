@@ -1,0 +1,2 @@
+/* Sans JavaScript, pas d'écran de chargement : la version rapide s'affiche directement. */
+#loader { display: none; }

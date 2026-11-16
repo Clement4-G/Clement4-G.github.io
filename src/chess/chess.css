@@ -1,0 +1,43 @@
+.chess { margin-top: 16px; max-width: 360px; }
+
+.chess__grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  border: 6px solid #1b1b1b;
+  outline: 1px solid #b08a3c;
+  outline-offset: -3px;
+  aspect-ratio: 1;
+}
+
+.chess__sq {
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  font-size: clamp(20px, 5.2vw, 30px);
+  line-height: 1;
+  font-family: 'Segoe UI Symbol', 'Noto Sans Symbols 2', 'DejaVu Sans', sans-serif;
+  aspect-ratio: 1;
+  cursor: pointer;
+}
+
+span.chess__sq { cursor: default; }
+
+.chess__sq.is-light { background: #f4f1ea; }
+.chess__sq.is-dark { background: #8a8778; }
+
+.chess__sq.is-white { color: #fffdf6; text-shadow: 0 0 1px #000, 0 0 1px #000, 0 1px 2px #000, 0 0 2px #000; }
+.chess__sq.is-black { color: #14110c; }
+
+.chess__sq.is-selected { box-shadow: inset 0 0 0 3px #38d6ff; }
+
+/* double anneau, sombre puis clair : visible sur les cases claires comme sur les cases sombres */
+.chess__sq:focus-visible { outline: 3px solid #1b1b1b; outline-offset: -3px; box-shadow: inset 0 0 0 6px #fffdf6; z-index: 1; }
+
+.chess__status { min-height: 1.6em; margin: 16px 0 8px; font-weight: 600; }
+
+.chess__status[data-tone='wrong'] { color: #b23a1f; }
+.chess__status[data-tone='solved'] { color: #1f7a48; }
+
+.chess__credit { font: 12px/1.4 'Cascadia Mono', Consolas, monospace; color: #55524a; margin: 10px 0 0; }
